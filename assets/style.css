@@ -1,0 +1,77 @@
+.btn-check:checked+.btn-outline-light,
+.btn-outline-light.active,
+.btn-outline-light.dropdown-toggle.show,
+.btn-outline-light:active {
+    color: #ffff;
+    background-color: #326efd30;
+}
+
+.radiolable:hover {
+    background-color: #326efd30;
+    border: 1px solid blue;
+    border-color: #326efd75;
+}
+
+.content-container {
+    background: #FFF;
+    padding: 2rem;
+}
+
+@media (max-width: 576px) {
+    .responsive-div {
+        width: 100%;
+    }
+}
+
+a[target="_self"]::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin: 0 3px 0 5px;
+}
+
+.thankyou {
+    color: black;
+    font-weight: bold;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin: auto;
+}
+
+.thankyou:hover {
+    color: transparent;
+    transition: 500ms ease;
+}
+
+.modal-dialog {
+    max-width: 80% !important;
+    margin: 1.75rem auto;
+}
+
+.center-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.container {
+    position: relative;
+}
+
+.slider {
+    width: 80%;
+    margin: auto;
+}
+
+.slider .form-range {
+    width: 80%;
+}
+
+.slider .d-flex span {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 20%;
+}
