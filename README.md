@@ -14,7 +14,7 @@ This README outlines the steps necessary to set up and run the web application l
 4. **Access Project**: Open your browser and navigate to `http://localhost/yourprojectfoldername` to view the study page.
 5. **Test and Modify**: Familiarize yourself with the project structure and how you can adapt it to your requirments. 
 
-## Desigining a Study 
+## Designing a Study 
 
 To run your own study, please follow these steps:
 
