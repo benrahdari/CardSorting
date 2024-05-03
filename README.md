@@ -14,9 +14,14 @@ This README outlines the steps necessary to set up and run the web application l
 4. **Access Project**: Open your browser and navigate to `http://localhost/yourprojectfoldername` to view the study page.
 5. **Test and Modify**: Familiarize yourself with the project structure and how you can adapt it to your requirments. 
 
-## Study Parameters
+## Designing a Study 
 
-To change the parameters such as total number of options or survey questions you can edit the `assets/func.js` directly.  
+To run your own study, please follow these steps:
+
+1. **Add your cases**: Replace the content of `cases` folder with your own materia. Please follow the same naming convention as in the example.
+2. **Add your sample**: Replace the content of `sample` folder with your own materia. This is what will be shown to the user as reference.
+3. **Change the study parameters**: To change the parameters such as total number of options or survey questions you can edit the `assets/func.js` directly. 
+4. **Move to server**: Follow the instruction in the next section on how to run this application on a server.
 
 
 ## Run on Server: AWS EC2 Instance
